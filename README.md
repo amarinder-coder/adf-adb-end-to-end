@@ -39,6 +39,8 @@ Step4: Create a new notebook which has main logic(movie_nb.ipynb).
 Step5: Create a logic app to send an email to the user with the movie recommendations or a error message.
 
 
+![image](https://user-images.githubusercontent.com/66850958/226825915-4e394959-a8a0-46cf-b490-26707caf04bb.png)
+
 
 
 Step6: Create a Azure Data Factory. In that create a pipeline with various activites. 
@@ -66,11 +68,39 @@ If True, then we copy data from rawdata to validated container, then run the not
 
 If False, then we copy data from rawdata to rejected container.
 
+
 4) We add 2 web activity to send an email to the user(i.e me) with the output of movie recommendations given by the ADB notebook.
 
 
 ![image](https://user-images.githubusercontent.com/66850958/226825626-5188eba8-c797-4acc-bac8-2bd6cf055794.png)
 
+
+5) We add a blobeventtrigger i.e if any files is added to the rawdata container ending with starting with movie and ending with .csv ,the pipeline will be triggered automatically.
+
+
+![image](https://user-images.githubusercontent.com/66850958/226826463-be9b1699-7a3a-4cfe-b758-34cbfbc7cf1d.png)
+
+
+Step7: I triggered the pipeline with a user id of 677 as shown below, it was passed as a pipeline parameter.
+
+![image](https://user-images.githubusercontent.com/66850958/226826744-d87136fa-7d40-4770-a4eb-c7f9dd209a04.png)
+
+
+Successful output on ADF monitoring.
+
+
+![image](https://user-images.githubusercontent.com/66850958/226826880-4d01d207-ae83-4a59-9319-718a683d4653.png)
+
+
+Got a success email with movie recommendations for userid with 677.
+
+
+![image](https://user-images.githubusercontent.com/66850958/226827116-15ddbcd6-b915-4b77-9d0c-d941abc8c6ad.png)
+
+
+
+
+############################################################END########################################################
 
 
 
