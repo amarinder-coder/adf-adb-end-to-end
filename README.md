@@ -3,6 +3,10 @@
 Movie recommendations system using ADB and ADF.
 
 
+![image](https://user-images.githubusercontent.com/66850958/226788005-5cbe5ae4-a936-425a-84fe-3d051dd40dcc.png)
+
+
+
 Dataset: https://grouplens.org/datasets/movielens/
 
 Step1: Create a resource group and in that create a storage account. In that create 4 blob containers and upload files from dataset.
