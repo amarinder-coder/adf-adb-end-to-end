@@ -98,7 +98,10 @@ Got a success email with movie recommendations for userid with 677.
 ![image](https://user-images.githubusercontent.com/66850958/226827116-15ddbcd6-b915-4b77-9d0c-d941abc8c6ad.png)
 
 
+Delete the resource group containing all the resources.
 
+
+![image](https://user-images.githubusercontent.com/66850958/226828334-fd0435b6-f6df-4d5f-88ec-d2a5aab8485f.png)
 
 
 
