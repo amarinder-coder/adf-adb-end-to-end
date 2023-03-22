@@ -75,7 +75,7 @@ If False, then we copy data from rawdata to rejected container.
 ![image](https://user-images.githubusercontent.com/66850958/226825626-5188eba8-c797-4acc-bac8-2bd6cf055794.png)
 
 
-5) We add a blobeventtrigger i.e if any files is added to the rawdata container ending with starting with movie and ending with .csv ,the pipeline will be triggered automatically.
+5) We add a blobeventtrigger i.e if any files is added to the rawdata container starting with movie and ending with .csv ,the pipeline will be triggered automatically.
 
 
 ![image](https://user-images.githubusercontent.com/66850958/226826463-be9b1699-7a3a-4cfe-b758-34cbfbc7cf1d.png)
@@ -100,7 +100,7 @@ Got a success email with movie recommendations for userid with 677.
 
 
 
-############################################################END########################################################
+
 
 
 
