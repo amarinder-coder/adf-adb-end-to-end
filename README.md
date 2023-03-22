@@ -1,4 +1,4 @@
-# adf-adb-end-to-end
+# ADF-ADB-end-to-end
 
 Movie recommendations system using ADB and ADF.
 
